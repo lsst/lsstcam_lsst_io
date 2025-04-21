@@ -1,0 +1,15 @@
+[project]
+title = "LSSTCam"
+copyright = "2025 Association of Universities for Research in Astronomy, Inc. (AURA)"
+author = "Vera C. Rubin Observatory"
+base_url = "https://lsstcam.lsst.io"
+github_url = "https://github.com/lsst/lsstcam_lsst_io"
+github_default_branch = "main"
+version = "Current"
+
+[sphinx]
+rst_epilog_file = "rst_epilog.rst"
+exclude = []
+
+[sphinx.linkcheck]
+ignore = []
