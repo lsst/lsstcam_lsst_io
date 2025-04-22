@@ -7,3 +7,11 @@ LSSTCam
 .. important::
 
    This website is currently under development.
+
+
+References
+==========
+
+.. bibliography::
+
+   2019ApJ...873..111I
