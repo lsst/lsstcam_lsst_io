@@ -9,6 +9,11 @@ version = "Current"
 
 [sphinx]
 rst_epilog_file = "rst_epilog.rst"
+extensions = [
+    "sphinxcontrib.bibtex",
+    "documenteer.ext.bibtex",
+    "documenteer.ext.githubbibcache"
+]
 exclude = []
 
 [sphinx.linkcheck]
