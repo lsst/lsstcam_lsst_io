@@ -76,7 +76,7 @@ The data for this table can be found `in the throughputs package <https://github
 Citing LSSTCam
 ==============
 
-Use of the correct formal citation strings and keywords ensures that all uses of data from LSSTComCam can be found using community tools.
+Use of the correct formal citation strings and keywords ensures that all uses of data from LSSTCam can be found using community tools.
 
 * DOI: https://doi.org/10.71929/rubin/2571927 (refers to this document)
 
