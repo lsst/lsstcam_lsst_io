@@ -5,7 +5,7 @@ The LSST Camera (LSSTCam)
 #########################
 
 
-*Citation:* SLAC National Accelerator Laboratory & NSF-DOE Vera C. Rubin Observatory, *The LSST Camera (LSSTCam)* (2025) |doi_image| https://doi.org/10.71929/rubin/2571927
+*Citation:* SLAC National Accelerator Laboratory & NSF-DOE Vera C. Rubin Observatory, *The LSST Camera (LSSTCam)* (2025) |doi_image| https://doi.org/10.71929/rubin/2571927 [:download:`BibTeX <camera.bib>`]
 
 The LSST Camera (LSSTCam) was mounted on the Simonyi Survey Telescope in `March 2025 <https://rubinobservatory.org/news/lsst-camera-installed>`_. LSSTCam will be used to take data for the `Legacy Survey of Space and Time <https://rubinobservatory.org/for-scientists/rubin-101/the-legacy-survey-of-space-and-time-lsst>`_ :cite:`2019ApJ...873..111I`.
 It has 3.2 Gigapixels over a 9.6 square degree field of view and six optical filters.
