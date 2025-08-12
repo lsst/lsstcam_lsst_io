@@ -45,6 +45,10 @@ Except for the gap sizes, these numbers come from Table 6 of :cite:`SITCOMTN-148
 * Read noise [e-]: 5.40 (e2v); 6.21 (ITL)
 * Gain [e-/ADU]: 1.51 (e2v); 1.68 (ITL)
 
+.. image:: /LSSTfilters_v1.9.png
+   :width: 75%
+   :alt: Lsst filters
+
 Components
 ==========
 
@@ -54,14 +58,14 @@ Components
 
 .. image:: /shutter.webp
    :width: 75%
-   :alt: Exploded view of camera
+   :alt: view of the shutter
 
 
 The shutter's two sides slide back and forth to expose and then cover the focal plane. The nominal shutter open/close time is 1 second.
 
 .. image:: /filter_assembly.webp
    :width: 75%
-   :alt: Exploded view of camera
+   :alt: filter change mechanism
 
 The filter changer mechanism - which holds 5 of the 6 LSST filters at a time - moves a filter in and out of the light path. The nominal filter change time is 2 minutes.
 
