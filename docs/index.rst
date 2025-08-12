@@ -45,6 +45,14 @@ Except for the gap sizes, these numbers come from Table 6 of :cite:`SITCOMTN-148
 * Read noise [e-]: 5.40 (e2v); 6.21 (ITL)
 * Gain [e-/ADU]: 1.51 (e2v); 1.68 (ITL)
 
+Components
+==========
+
+.. image:: /Camera_Exploded_View_labeled.jpg
+   :width: 75%
+   :alt: Exploded view of camera
+
+
 Filters
 =======
 
