@@ -52,6 +52,18 @@ Components
    :width: 75%
    :alt: Exploded view of camera
 
+.. image:: /shutter.webp
+   :width: 75%
+   :alt: Exploded view of camera
+
+
+The shutter's two sides slide back and forth to expose and then cover the focal plane. The nominal shutter open/close time is 1 second.
+
+.. image:: /filter_assembly.webp
+   :width: 75%
+   :alt: Exploded view of camera
+
+The filter changer mechanism - which holds 5 of the 6 LSST filters at a time - moves a filter in and out of the light path. The nominal filter change time is 2 minutes.
 
 Filters
 =======
