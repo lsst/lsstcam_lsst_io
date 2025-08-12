@@ -45,9 +45,6 @@ Except for the gap sizes, these numbers come from Table 6 of :cite:`SITCOMTN-148
 * Read noise [e-]: 5.40 (e2v); 6.21 (ITL)
 * Gain [e-/ADU]: 1.51 (e2v); 1.68 (ITL)
 
-.. image:: /LSSTfilters_v1.9.png
-   :width: 75%
-   :alt: Lsst filters
 
 Components
 ==========
@@ -96,6 +93,10 @@ For each filter, the effective wavelength -- defined as the mean wavelength by t
 
 The data for this table can be found `in the throughputs package <https://github.com/lsst/throughputs/tree/main/baseline>`_.
 
+
+.. image:: /LSSTfilters_v1.9.png
+   :width: 75%
+   :alt: Lsst filters
 
 Citing LSSTCam
 ==============
