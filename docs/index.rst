@@ -17,13 +17,15 @@ It has 3.2 Gigapixels over a 9.6 square degree field of view and six optical fil
 Focal plane
 ===========
 
-The LSST Camera focal plane is composed of 189 individual science charge-coupled devices (CCDs), arranged into 21 "rafts," along with 8 wavefront and 8 guider CCDs located in 4 additional corner rafts.
+The LSST Camera focal plane is composed of 189 individual science charge-coupled devices (CCDs), arranged into 21 "rafts,"
+along with 8 wavefront and 8 guider CCDs located in 4 additional corner rafts.
 Each pixel is 0.2 arcseconds on the sky, and so each CCD of approximately 4,000 by 4,000 pixels covers 13.3 by 13.3 arcminutes (0.22 by 0.22 degrees).
 Every CCD has 16 amplifiers, each reading 1 million pixels, enabling the full focal plane of of 3.2 Gigapixels to be read out in 2 seconds.
 
 The CCDs were supplied by two vendors, `ITL <https://www.itl.arizona.edu/capabilities>`_ and `e2v <https://www.teledyne-e2v.com/en-us>`_.
 All nine detectors in a given raft are from the same vendor.
-Differences between sensors are accounted for during the Instrument Signature Removal (ISR) stage of image processing by the LSST Science Pipelines :cite:`PSTN-019`.
+Differences between sensors are accounted for during the Instrument Signature Removal (ISR)
+stage of image processing by the `LSST Science Pipelines <https://ui.adsabs.harvard.edu/abs/2025JATIS..11a1209P/abstract>`_.
 
 .. figure:: /05_2025_rubin_focal_plane_final.jpg
    :name: lsstcam_focal_plane
@@ -98,7 +100,7 @@ The data for this table can be found `in the throughputs package <https://github
    :width: 50%
    :alt: Lsst filters
 
-Above, the filter transmission curves for the LSST Camera's six filters: u, g, r, i, z, and y. 
+Above, the filter transmission curves for the LSST Camera's six filters: u, g, r, i, z, and y.
 These throuputs include atmospheric transmission (assuming an airmass of 1.2, dotted line), optics,
 and the detector sensitivity.
 
