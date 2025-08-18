@@ -98,6 +98,10 @@ The data for this table can be found `in the throughputs package <https://github
    :width: 50%
    :alt: Lsst filters
 
+Above, the filter transmission curves for the LSST Camera's six filters: u, g, r, i, z, and y. 
+These throuputs include atmospheric transmission (assuming an airmass of 1.2, dotted line), optics,
+and the detector sensitivity.
+
 Citing LSSTCam
 ==============
 
