@@ -24,7 +24,7 @@ Every CCD has 16 amplifiers, each reading 1 million pixels, enabling the full fo
 
 The CCDs were supplied by two vendors, `ITL <https://www.itl.arizona.edu/capabilities>`_ and `e2v <https://www.teledyne-e2v.com/en-us>`_.
 All nine detectors in a given raft are from the same vendor.
-Differences between sensors are accounted for during the Instrument Signature Removal (ISR)
+Differences between sensors are accounted for during the `Instrument Signature Removal (ISR) <https://ui.adsabs.harvard.edu/abs/2025JATIS..11a1209P/abstract>`_
 stage of image processing by the `LSST Science Pipelines <https://ui.adsabs.harvard.edu/abs/2025JATIS..11a1209P/abstract>`_.
 
 .. figure:: /05_2025_rubin_focal_plane_final.jpg
