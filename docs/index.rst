@@ -128,7 +128,6 @@ Technical Documentation
 * `Design and development of the 3.2 gigapixel camera for the Large Synoptic Survey Telescope <https://ui.adsabs.harvard.edu/abs/2010SPIE.7735E..0JK/abstract>`_, Kahn et al. (2010; SPIE, `doi:10.1117/12.857920 <https://doi.org/10.1117/12.857920>`_)
 * `The LSST camera overview: design and performance <https://ui.adsabs.harvard.edu/abs/2008SPIE.7014E..0CG/abstract>`_, Gilmore et al. (2008; SPIE, `doi:10.1117/12.789947 <https://doi.org/10.1117/12.789947>`_)
 * `The LSST Camera system overview <https://ui.adsabs.harvard.edu/abs/2006SPIE.6269E..0CG/abstract>`_, Gilmore et al. (2006; SPIE, `doi:10.1117/12.673236 <https://doi.org/10.1117/12.673236>`_)
-* `LCA-13381: Detector Plane Layout <https://zenodo.org/records/15133467>`_ , M. Nordby, 2020
 * `LSSTCam and LSSTComCam Focal Plane Layouts <https://doi.org/10.5281/zenodo.15133467>`_, Plazas Malagón et al., (NSF-DOE Vera C. Rubin Observatory Camera Technical Note 001)
 
 References
