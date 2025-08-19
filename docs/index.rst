@@ -17,13 +17,15 @@ It has 3.2 Gigapixels over a 9.6 square degree field of view and six optical fil
 Focal plane
 ===========
 
-The LSST Camera focal plane is composed of 189 individual science charge-coupled devices (CCDs), arranged into 21 "rafts," along with 8 wavefront and 8 guider CCDs located in 4 additional corner rafts.
+The LSST Camera focal plane is composed of 189 individual science charge-coupled devices (CCDs), arranged into 21 "rafts,"
+along with 8 wavefront and 8 guider CCDs located in 4 additional corner rafts.
 Each pixel is 0.2 arcseconds on the sky, and so each CCD of approximately 4,000 by 4,000 pixels covers 13.3 by 13.3 arcminutes (0.22 by 0.22 degrees).
 Every CCD has 16 amplifiers, each reading 1 million pixels, enabling the full focal plane of of 3.2 Gigapixels to be read out in 2 seconds.
 
 The CCDs were supplied by two vendors, `ITL <https://www.itl.arizona.edu/capabilities>`_ and `e2v <https://www.teledyne-e2v.com/en-us>`_.
 All nine detectors in a given raft are from the same vendor.
-Differences between sensors are accounted for during the Instrument Signature Removal (ISR) stage of image processing by the LSST Science Pipelines :cite:`PSTN-019`.
+Differences between sensors are accounted for during the Instrument Signature Removal (ISR)
+stage of image processing :cite:p:`2025JATIS..11a1209P` by the LSST Science Pipelines :cite:p:`PSTN-019`.
 
 .. figure:: /05_2025_rubin_focal_plane_final.jpg
    :name: lsstcam_focal_plane
@@ -44,6 +46,27 @@ Except for the gap sizes, these numbers come from Table 6 of :cite:`SITCOMTN-148
 * Photon Transfer Curve (PTC) turnoff [e-]: 103000 (e2v); 129000 (ITL)
 * Read noise [e-]: 5.40 (e2v); 6.21 (ITL)
 * Gain [e-/ADU]: 1.51 (e2v); 1.68 (ITL)
+
+
+Components
+==========
+
+.. image:: /Camera_Exploded_View_labeled.jpg
+   :width: 75%
+   :alt: Exploded view of camera
+
+.. image:: /shutter.webp
+   :width: 50%
+   :alt: view of the shutter
+
+
+The shutter's two sides slide back and forth to expose and then cover the focal plane. The nominal shutter open/close time is 1 second.
+
+.. image:: /filter_assembly.webp
+   :width: 50%
+   :alt: filter change mechanism
+
+The filter changer mechanism - which holds 5 of the 6 LSST filters at a time - moves a filter in and out of the light path. The nominal filter change time is 2 minutes.
 
 Filters
 =======
@@ -73,6 +96,14 @@ For each filter, the effective wavelength -- defined as the mean wavelength by t
 The data for this table can be found `in the throughputs package <https://github.com/lsst/throughputs/tree/main/baseline>`_.
 
 
+.. image:: /LSSTfilters_v1.9.png
+   :width: 50%
+   :alt: Lsst filters
+
+Above, the filter transmission curves for the LSST Camera's six filters: u, g, r, i, z, and y.
+These throuputs include atmospheric transmission (assuming an airmass of 1.2, dotted line), optics,
+and the detector sensitivity.
+
 Citing LSSTCam
 ==============
 
@@ -92,12 +123,12 @@ Technical Documentation
 
 * `LSST Camera verification testing and characterization <https://ui.adsabs.harvard.edu/abs/2024SPIE13096E..1SR/abstract>`_, Roodman et al. (2024; SPIE, `doi:10.1117/12.3019698 <https://doi.org/10.1117/12.3019698>`_)
 * `LSST Camera focal plane optimization <https://ui.adsabs.harvard.edu/abs/2024SPIE13103E..0WU/abstract>`_, Utsumi et al. (2024; SPIE, `doi:10.1117/12.3019117 <https://doi.org/10.1117/12.3019117>`_)
-* `Integrating the LSST camera <https://ui.adsabs.harvard.edu/abs/2024SPIE13096E..1OL/abstract>`_ Lange et al. (2024; SPIE `doi:10.1117/12.3019302 <https://doi.org/10.1117/12.3019302>`_)
-* `LSST Camera Electro-Optical Test (Run 7) Results <https://sitcomtn-148.lsst.io>`_ Antilogus et al. (2025, NSF-DOE Vera C. Rubin Observatory Commissioning Technical Note 148)
-* `Design and development of the 3.2 gigapixel camera for the Large Synoptic Survey Telescope <https://ui.adsabs.harvard.edu/abs/2010SPIE.7735E..0JK/abstract>`_ Kahn et al. (2010; SPIE, `doi:10.1117/12.857920 <https://doi.org/10.1117/12.857920>`_)
-* `The LSST camera overview: design and performance <https://ui.adsabs.harvard.edu/abs/2008SPIE.7014E..0CG/abstract>`_ Gilmore et al. (2008; SPIE, `doi:10.1117/12.789947 <https://doi.org/10.1117/12.789947>`_)
-* `The LSST Camera system overview <https://ui.adsabs.harvard.edu/abs/2006SPIE.6269E..0CG/abstract>`_ Gilmore et al. (2006; SPIE, `doi:10.1117/12.673236 <https://doi.org/10.1117/12.673236>`_)
-
+* `Integrating the LSST camera <https://ui.adsabs.harvard.edu/abs/2024SPIE13096E..1OL/abstract>`_, Lange et al. (2024; SPIE `doi:10.1117/12.3019302 <https://doi.org/10.1117/12.3019302>`_)
+* `LSST Camera Electro-Optical Test (Run 7) Results <https://sitcomtn-148.lsst.io>`_, Antilogus et al. (2025, NSF-DOE Vera C. Rubin Observatory Commissioning Technical Note 148)
+* `Design and development of the 3.2 gigapixel camera for the Large Synoptic Survey Telescope <https://ui.adsabs.harvard.edu/abs/2010SPIE.7735E..0JK/abstract>`_, Kahn et al. (2010; SPIE, `doi:10.1117/12.857920 <https://doi.org/10.1117/12.857920>`_)
+* `The LSST camera overview: design and performance <https://ui.adsabs.harvard.edu/abs/2008SPIE.7014E..0CG/abstract>`_, Gilmore et al. (2008; SPIE, `doi:10.1117/12.789947 <https://doi.org/10.1117/12.789947>`_)
+* `The LSST Camera system overview <https://ui.adsabs.harvard.edu/abs/2006SPIE.6269E..0CG/abstract>`_, Gilmore et al. (2006; SPIE, `doi:10.1117/12.673236 <https://doi.org/10.1117/12.673236>`_)
+* `LSSTCam and LSSTComCam Focal Plane Layouts <https://ctn-001.lsst.io/>`_, Plazas Malagón et al., (NSF-DOE Vera C. Rubin Observatory Camera Technical Note 001)
 
 References
 ==========
