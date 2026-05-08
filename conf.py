@@ -25,3 +25,7 @@ bibtex_bibfiles = [str(p) for p in Path.cwd().glob("*.bib")]
 
 bibtex_default_style = "lsst_aa"
 bibtex_reference_style = "author_year"
+
+linkcheck_ignore = [
+    r'https://doi\.org/.*',  # Ignore DOI links that are slow
+]
